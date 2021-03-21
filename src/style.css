@@ -1,0 +1,278 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+html {
+  background-color: #121051;
+  width: 100%;
+
+  /* Inside Auto Layout */
+}
+
+/* Navbar */
+.p-absoulute {
+  z-index: 0;
+}
+
+ul {
+  background-color: none;
+
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-bottom: -1px;
+  text-decoration: none;
+}
+
+li {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #586069;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+}
+
+li:hover {
+  cursor: pointer;
+  color: #24292e;
+  border-bottom-color: #000000;
+  transition: 0.2s ease;
+  text-decoration: none;
+  /* border-bottom: 2.5px solid #d1d5da; */
+}
+
+.active {
+  font-weight: 600;
+  color: #24292e;
+  border-bottom-color: #e36209;
+  text-decoration: none;
+}
+
+.active:hover {
+  font-weight: 600;
+  color: #24292e;
+  border-bottom-color: #e36209;
+  text-decoration: none;
+}
+
+/* first frame desgins */
+
+.white-oval {
+  position: absolute;
+  z-index: -1;
+  height: 550px;
+  width: 1070px;
+  top: 0;
+  right: 0;
+}
+
+.blue-circle {
+  position: absolute;
+  z-index: -2;
+  height: 650px;
+  width: 950px;
+  top: 10;
+  right: 0px;
+}
+
+.bar {
+  z-index: 3;
+  position: fixed;
+  width: 100%;
+  color: #0000;
+  background-color: transparent;
+}
+
+.scroll {
+  background-color: #ffffff;
+  opacity: 199%;
+  color: #000000;
+}
+
+.text {
+  position: absolute;
+  width: 46vw;
+  height: 7vw;
+  margin-left: 41%;
+  margin-top: 7%;
+  font-family: Roboto;
+  font-style: normal;
+  color: #000000;
+}
+
+.landing-title {
+  font-weight: 800;
+  font-size: 4vw;
+}
+
+.landing-paragraph {
+  font-weight: normal;
+  font-size: 2vw;
+}
+
+/* Second Frame Style*/
+
+.white-rect {
+  position: absolute;
+  margin-top: 420px;
+  height: 500px;
+  width: 100%;
+  fill: white;
+}
+
+.sec-text {
+  position: absolute;
+  width: 46vw;
+  height: 7vw;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: Roboto;
+  font-style: normal;
+  color: #000000;
+}
+
+.watch-button {
+  position: absolute;
+  width: 114px;
+  height: 34px;
+  margin-left: 20px;
+}
+
+.blue-border-rect {
+  background: #ffffff;
+  border: 4px solid #1d3ba8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blue-small-title {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1d3ba8;
+}
+
+.watch-triangle {
+  margin-right: 7px;
+}
+
+.white-border-rect {
+  background: #1d3ba8;
+  border: 4px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add-listing-button {
+  position: absolute;
+  width: 114px;
+  height: 34px;
+  margin-left: 0px;
+}
+
+.white-small-title {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/*Third frame style*/
+
+.third-frame {
+}
+
+.popularity-chart {
+  position: absolute;
+  margin-top: 980px;
+  height: 2vw;
+  width: 3vw;
+}
+
+/* For phones*/
+
+@media (max-width: 600px) {
+  ul {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-bottom: 2px solid #d1d5da;
+    margin-bottom: -1px;
+    text-decoration: none;
+  }
+
+  li {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #586069;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+  }
+
+  li:hover {
+    cursor: pointer;
+    color: #24292e;
+    border-bottom-color: #d1d5da;
+    transition: 0.2s ease;
+    text-decoration: none;
+    /* border-bottom: 2.5px solid #d1d5da; */
+  }
+
+  .active {
+    font-weight: 600;
+    color: #24292e;
+    border-bottom-color: #e36209;
+    text-decoration: none;
+  }
+
+  .active:hover {
+    font-weight: 600;
+    color: #24292e;
+    border-bottom-color: #e36209;
+    text-decoration: none;
+  }
+
+  .landing-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+
+    color: #000000;
+  }
+  .landing-paragraph {
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .white-rect {
+    position: absolute;
+    margin-top: 320px;
+    height: 400px;
+    width: 100%;
+    fill: #121051;
+  }
+
+  .sec-text {
+    margin-top: 40%;
+  }
+}
