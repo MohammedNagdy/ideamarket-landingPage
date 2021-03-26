@@ -13,6 +13,15 @@ html {
 /* Navbar */
 .p-absoulute {
   z-index: 0;
+  display: inline-block;
+}
+
+.ideamarket-name{
+  color: #ffffff;
+}
+
+.idea-brand{
+  position: absolute;
 }
 
 ul {
