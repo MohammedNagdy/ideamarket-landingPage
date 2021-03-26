@@ -17,10 +17,9 @@ export default function ThirdFrame() {
 
   return (
     <div className="third-frame">
-      <img className="rect-12" src={rect12} />
       <div className="signals">
         <div className="row">
-          <h2 className="blue-number">$ 930,000</h2>
+          <h2 className="white-title">$ 930,000</h2>
           <h2 className="white-title"> in trust signals</h2>
         </div>
         <div className="audited row">

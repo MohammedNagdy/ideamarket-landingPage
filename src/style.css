@@ -398,6 +398,9 @@ color: #FFFFFF;
 /* For phones*/
 
 @media (max-width: 600px) {
+  html{
+    width: 100%;
+  }
   ul {
     margin: 10px;
     display: flex;
@@ -444,28 +447,283 @@ color: #FFFFFF;
     text-decoration: none;
   }
 
-  .landing-title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
+  .ideamarket-name{
+    display: none;
+  }
 
+  .bar {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    color: #0000;
+    background-color: #ffffff;
+
+  }
+  
+  .scroll {
+    background-color: #ffffff;
+    opacity: 199%;
     color: #000000;
   }
-  .landing-paragraph {
-    font-weight: normal;
-    font-size: 12px;
+  
+/* first frame desgins */
+
+.first-frame{
+  position: absolute;
+  margin-top: 15%;
+  width: 100%;
+}
+
+.white-oval {
+ display: none;
+}
+
+
+.text {
+  width: 400px;
+  height: 20px;
+  margin-left: 2%;
+  margin-top: 7%;
+  font-family: Roboto;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.landing-title {
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.landing-paragraph {
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.media-talk{
+  z-index: 5;
+  margin-left: 5%;
+  margin-top: 33%;
+  width: 400px;
+  height: 400px;
+
+}
+
+  /* Second Frame Style*/
+
+.second-frame{
+  position: absolute;
+  width: 100%;
+  margin-top: 120%;
+}
+.white-rect {
+  fill: transparent;
+}
+
+.sec-text {
+  width: 400px;
+  height: 10px;
+  margin-left: 15%;
+  margin-top: 5%;
+  font-family: Roboto;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.watch-button {
+  width: 114px;
+  height: 34px;
+  margin-left: 20px;
+}
+
+.blue-border-rect {
+  background: #ffffff;
+  border: 4px solid #1d3ba8;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.blue-small-title {
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #1d3ba8;
+}
+
+.watch-triangle {
+  margin-right: 7px;
+}
+
+.white-border-rect {
+  background: #1d3ba8;
+  border: 4px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add-listing-button {
+  width: 114px;
+  height: 34px;
+  margin-left: 0px;
+}
+
+.white-small-title {
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.pressing-wallet{
+  height: 240px; /* height to width ratio of 1:2.3*/
+  width: 550px;
+  margin-top: 50%;
+  margin-left: 30%;
+}
+
+
+/*Third frame style*/
+
+.third-frame {
+  position: absolute;
+  margin-top: 280%;
+}
+
+.rect-12{
+  margin-top: 4%;
+  margin-left: 0%;
+  width: 400px;
+  height: 400px;
+}
+
+
+.signals{
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.blue-number{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 59px;
+  
+  color: #1D3BA8;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.white-title{
+  margin-top: 0px;
+  font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 59px;
+margin-left: 10px;
+color: #FFFFFF;
+
+}
+
+.audited{
+  margin-top: 2px;
+  margin-left: 5px;
+  width: 200px;
+}
+
+.audited-title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.quant-audited{
+  margin-left: 150px;
+}
+
+/* popularity-chart styling */
+
+.popularity-chart {
+  margin-top: 85%;
+  margin-left: 5%;
+  height: 50vw;
+  width: 90vw;
+  border-radius: 2%;
+  background-color: #ffffff;
+}
+
+
+.tab-content {
+
+  background: #EDF3FE;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0px;
+  height: 30vw;
+  width: 85vw;
+}
+
+.tabs {
+  margin-left: 2% ;
+  margin-top: 3%;
+}
+
+.tabs-list {
+  cursor: pointer;
+  border-top: 1px solid black;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+
+.tab-list-item {
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  margin-bottom: -70px;
+  padding-right: 5px;
+  border-radius: 0%;
+}
+
+
+
+.active-tab-list-item {
+
+  background: #EDF3FE;
+  box-shadow: 2px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  border-width: 1px 1px 0 1px;
+}
+
+.chart-title{
+  margin-left: 2%;
+
+font-size: 18.0602px;
+line-height: 27px;
+/* or 150% */
+
+
+/* Dark Color */
+
+color: #263238;
+}
+
+.chart{
+  width: 80vw;
+  height: 28vw;
+  margin: 0px 10px;
+
+  background: #EDF3FE;
   }
 
-  .white-rect {
-    position: absolute;
-    margin-top: 320px;
-    height: 400px;
-    width: 100%;
-    fill: #121051;
-  }
 
-  .sec-text {
-    margin-top: 40%;
-  }
+
 }
