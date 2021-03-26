@@ -4,8 +4,8 @@ p {
 }
 
 html {
-  background-color: #121051;
-  width: 100%;
+  background: linear-gradient(48.7deg, #4956CD -1.03%, rgba(66, 79, 197, 0.507047) 29.97%, rgba(39, 57, 215, 0.210912) 49.2%, rgba(255, 255, 255, 0) 74.32%), #121051;  width: 100%;
+  height: 100%;
 
   /* Inside Auto Layout */
 }
@@ -63,26 +63,31 @@ li:hover {
 
 /* first frame desgins */
 
+.first-frame{
+  margin-top: 0%;
+  width: 100%;
+}
+
 .white-oval {
   position: absolute;
   z-index: -1;
-  height: 550px;
-  width: 1070px;
+  height: 35vw;
+  width: 80vw;
   top: 0;
   right: 0;
 }
 
-.blue-circle {
+/* .blue-circle {
   position: absolute;
   z-index: -2;
   height: 650px;
   width: 950px;
   top: 10;
   right: 0px;
-}
+} */
 
 .bar {
-  z-index: 3;
+  z-index: 10;
   position: fixed;
   width: 100%;
   color: #0000;
@@ -116,13 +121,24 @@ li:hover {
   font-size: 2vw;
 }
 
+.media-talk{
+  position: absolute;
+  z-index: 5;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 30vw;
+  height: 30vw;
+
+}
+
 /* Second Frame Style*/
 
 .white-rect {
   position: absolute;
-  margin-top: 420px;
-  height: 500px;
+  margin-top: 32%;
+  height: 35vw;
   width: 100%;
+  top: 0;
   fill: white;
 }
 
@@ -131,7 +147,7 @@ li:hover {
   width: 46vw;
   height: 7vw;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 10vw;
   font-family: Roboto;
   font-style: normal;
   color: #000000;
@@ -190,17 +206,185 @@ li:hover {
   color: #ffffff;
 }
 
+.pressing-wallet{
+  position: absolute;
+  height: 21vw; /* height to width ratio of 1:2.3*/
+  width: 52vw;
+  margin-top: 14%;
+  right: 2px;
+}
+
 /*Third frame style*/
 
 .third-frame {
+  align-items: center;
 }
+
+.rect-12{
+  position: absolute;
+  margin-top: 65%;
+  margin-left: 0%;
+  width: 45vw;
+  height: 40vw;
+}
+
+
+.signals{
+  position: absolute;
+  margin: 70vw 30vw;
+  display: inline-block;
+}
+
+.blue-number{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3vw;
+  line-height: 59px;
+  
+  color: #1D3BA8;
+  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.white-title{
+  font-style: normal;
+font-weight: bold;
+font-size: 3vw;
+line-height: 59px;
+margin-left: 10px;
+color: #FFFFFF;
+
+}
+
+.audited{
+  position: absolute;
+  margin-top: 1vw;
+  margin-left: 60px;
+  width: 13vw;
+}
+
+.audited-title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.quant-audited{
+  margin-left: 150px;
+}
+
+/* popularity-chart styling */
 
 .popularity-chart {
   position: absolute;
-  margin-top: 980px;
-  height: 2vw;
-  width: 3vw;
+  margin-top: 85%;
+  margin-left: 5%;
+  height: 42vw;
+  width: 90vw;
+  border-radius: 2%;
+  background-color: #ffffff;
 }
+
+
+.tab-content {
+
+  background: #EDF3FE;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 0px;
+  height: 30vw;
+  width: 85vw;
+}
+
+.tabs {
+  margin-left: 2% ;
+  margin-top: 3%;
+}
+
+.tabs-list {
+  cursor: pointer;
+  border-top: 1px solid black;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+
+.tab-list-item {
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  margin-bottom: -70px;
+  padding-right: 5px;
+  border-radius: 0%;
+}
+
+
+
+.active-tab-list-item {
+
+  background: #EDF3FE;
+  box-shadow: 2px 0px 0px 0px rgba(0, 0, 0, 0.25);
+  border-width: 1px 1px 0 1px;
+}
+
+.chart-title{
+
+font-size: 18.0602px;
+line-height: 27px;
+/* or 150% */
+
+
+/* Dark Color */
+
+color: #263238;
+}
+
+.chart{
+  width: 80vw;
+  height: 28vw;
+  margin: 0px 10px;
+
+  background: #EDF3FE;
+  }
+
+
+/* fourth frame styling */
+
+.fourth-frame{
+  position: absolute;
+  margin-top: 130%;
+  text-align: center;
+  align-items: center;
+  margin-left: 20%;
+}
+
+.featured-title{
+  font-family: Roboto;
+  margin-left: 2px;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.featured-logos{
+  margin-top: 40px;
+}
+
+.logo{
+  margin-left: 45px;
+  margin-bottom: 30px;
+  height: auto;
+  width: auto;
+}
+
 
 /* For phones*/
 
@@ -255,13 +439,13 @@ li:hover {
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 28px;
 
     color: #000000;
   }
   .landing-paragraph {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 12px;
   }
 
   .white-rect {
