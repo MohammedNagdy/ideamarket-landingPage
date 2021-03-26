@@ -395,6 +395,8 @@ color: #FFFFFF;
 }
 
 
+/* footer styling */
+
 /* For phones*/
 
 @media (max-width: 600px) {
@@ -513,13 +515,14 @@ color: #FFFFFF;
 .second-frame{
   position: absolute;
   width: 100%;
-  margin-top: 120%;
+  margin-top: 90%;
 }
 .white-rect {
   fill: transparent;
 }
 
 .sec-text {
+  text-align: center;
   width: 400px;
   height: 10px;
   margin-left: 15%;
@@ -584,7 +587,7 @@ color: #FFFFFF;
   height: 240px; /* height to width ratio of 1:2.3*/
   width: 550px;
   margin-top: 50%;
-  margin-left: 30%;
+  margin-left: 20%;
 }
 
 
@@ -592,20 +595,23 @@ color: #FFFFFF;
 
 .third-frame {
   position: absolute;
-  margin-top: 280%;
+  margin-top: 225%;
 }
 
 .rect-12{
   margin-top: 4%;
-  margin-left: 0%;
+  margin-left: 2%;
   width: 400px;
   height: 400px;
 }
 
 
 .signals{
-  margin: 0 auto;
+  position: absolute;
+  margin-top:0px;
+  margin-left: 70px;
   display: inline-block;
+  width: 400px;
 }
 
 .blue-number{
@@ -631,12 +637,13 @@ color: #FFFFFF;
 }
 
 .audited{
-  margin-top: 2px;
-  margin-left: 5px;
+  margin-top: 20px;
+  margin-left: 60px;
   width: 200px;
 }
 
 .audited-title{
+  margin-top: 8px;
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -645,18 +652,19 @@ line-height: 16px;
 display: flex;
 align-items: center;
 
-color: #000000;
+color: #ffffff;
 }
 
 .quant-audited{
-  margin-left: 150px;
+  margin-top: 0px;
+  margin-left: 140px;
 }
 
 /* popularity-chart styling */
 
 .popularity-chart {
-  margin-top: 85%;
-  margin-left: 5%;
+  margin-top: 150px;
+  margin-left: 20px;
   height: 50vw;
   width: 90vw;
   border-radius: 2%;
@@ -708,22 +716,52 @@ color: #000000;
 
 font-size: 18.0602px;
 line-height: 27px;
-/* or 150% */
-
-
-/* Dark Color */
-
 color: #263238;
 }
 
 .chart{
-  width: 80vw;
-  height: 28vw;
+  width: 400px;
+  height: 150px;
   margin: 0px 10px;
 
   background: #EDF3FE;
   }
 
+
+  
+/* fourth frame styling */
+
+.fourth-frame{
+  position: absolute;
+  margin-top: 320%;
+  text-align: center;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.featured-title{
+  font-family: Roboto;
+  margin-left: -70px;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 49px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.featured-logos{
+  margin-top: 40px;
+}
+
+.logo{
+  align-items: center;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  height: auto;
+  width: auto;
+}
 
 
 }
