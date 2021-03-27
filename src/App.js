@@ -1,9 +1,10 @@
 import React from "react";
 import "./style.css";
-import FirstFrame from "./components/FirstFrame";
-import SecondFrame from "./components/SecondFrame";
-import ThirdFrame from "./components/ThirdFrame";
-import FourthFrame from "./components/FourthFrame";
+import FirstFrame from "./frames/FirstFrame";
+import SecondFrame from "./frames/SecondFrame";
+import ThirdFrame from "./frames/ThirdFrame";
+import FourthFrame from "./frames/FourthFrame";
+import Footer from "./components/Footer";
 
 import Header from "./components/Header";
 
@@ -15,6 +16,7 @@ export default function App() {
       <SecondFrame />
       <ThirdFrame />
       <FourthFrame />
+      <Footer /> 
     </div>
   );
 }
